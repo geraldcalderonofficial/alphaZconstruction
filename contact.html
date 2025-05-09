@@ -209,32 +209,59 @@
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="heading-title  wow fadeInUp" data-wow-delay="300ms">
-                        <form class="getin_form wow fadeInUp" data-wow-delay="400ms" id="contact-form-data">
+                        <form action="https://formspree.io/f/xyzwjleg" method="POST" class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return true;">
                             <div class="row px-2">
                                 <div class="col-md-12 col-sm-12" id="result"></div>
                                 <div class="col-md-12 col-sm-12">
                                     <div class="form-group">
-                                        <label for="name1" class="d-none"></label>
-                                        <input class="form-control" id="name1" type="text" placeholder="Name:" required  name="userName">
+                                        <label for="contactName" class="d-none"></label>
+                                        <input class="form-control" id="contactName" type="text" placeholder="Name:" required  name="contactName" autocomplete="off">
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12">
                                     <div class="form-group">
-                                        <label for="email1" class="d-none"></label>
-                                        <input class="form-control" type="email" id="email1" placeholder="Email:" name="userEmail">
+                                        <label for="contactEmail" class="d-none"></label>
+                                        <input class="form-control" type="email" id="contactEmail" placeholder="Email:" name="contactEmail" autocomplete="off">
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12">
                                     <div class="form-group">
-                                        <label for="message1" class="d-none"></label>
-                                        <textarea class="form-control" id="message1" placeholder="Message:" required  name="userMessage"></textarea>
+                                        <label for="contactMessage" class="d-none"></label>
+                                        <textarea class="form-control" id="contactMessage" placeholder="Message:" required  name="contactMessage" autocomplete="off"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12">
-                                    <button type="button" id="submit_btn1" class="btn button btn-blue w-100 contact_btn">Send</button>
+                                    <button type="submit" id="submit_btn11" class="btn button btn-blue w-100 contact_btn">Send</button>
                                 </div>
                             </div>
                         </form>
+                        <!--<form action="https://formspree.io/f/xyzwjleg" method="POST" class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return true;">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12" id="result"></div>
+                                <div class="col-md-12 col-sm-12">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="contactName" class="d-none"></label>
+                                        <input class="form-control" type="text" placeholder="Name" required id="contactName" name="contactName">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="contactEmail" class="d-none"></label>
+                                        <input class="form-control" type="email" placeholder="Email" id="contactEmail" name="contactEmail">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <label for="contactMessage" class="d-none"></label>
+                                        <textarea class="form-control" placeholder="Message"  id="contactMessage" name="contactMessage"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <button type="submit" class="button btn-default w-100" id="submit_btn">subscribe</button>
+                                </div>
+                            </div>
+                        </form>-->
                     </div>
                 </div>
             </div>
@@ -304,25 +331,25 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12">
-                    <form class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return false;">
+                    <form action="https://formspree.io/f/xbloypnw" method="POST" class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return true;">
                         <div class="row">
-<!--                            <div class="col-md-12 col-sm-12" id="result"></div>-->
+                            <div class="col-md-12 col-sm-12" id="result"></div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="form-group">
                                     <label for="userName" class="d-none"></label>
-                                    <input class="form-control" type="text" placeholder="Name" required id="userName" name="userName">
+                                    <input class="form-control" type="text" placeholder="Name" required id="userName" name="userName" autocomplete="off">
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="form-group">
-                                    <label for="companyName" class="d-none"></label>
-                                    <input class="form-control" type="text" placeholder="Company"  id="companyName" name="companyName">
+                                    <label for="userCompany" class="d-none"></label>
+                                    <input class="form-control" type="text" placeholder="Company"  id="userCompany" name="userCompany" autocomplete="off">
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 <div class="form-group">
-                                    <label for="email" class="d-none"></label>
-                                    <input class="form-control" type="email" placeholder="Email" required id="email" name="email">
+                                    <label for="userEmail" class="d-none"></label>
+                                    <input class="form-control" type="email" placeholder="Email" required id="userEmail" name="userEmail" autocomplete="off">
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
